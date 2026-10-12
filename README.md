@@ -89,6 +89,7 @@ Screenshots are in the `evidence/` folder. None of them show a token, secret, or
 |---|---|
 | Workflow canvas (17 nodes) | `evidence/01_workflow_canvas.png` |
 | Ledger table after all tests (5 rows) | `evidence/02_ledger_table.png` |
+| Ledger status columns (`route_log_status`, `error_note`, `last_seen_at`) | `evidence/02b_ledger_status_columns.png` |
 | Route-log table after all tests (4 rows, none for the failed issue) | `evidence/03_route_log_table.png` |
 | Executions list (IDs 19 to 26) | `evidence/04_executions.png` |
 | Failed route-log test, ledger row with the safe error note | `evidence/05_failed_row.png` |
@@ -96,6 +97,7 @@ Screenshots are in the `evidence/` folder. None of them show a token, secret, or
 
 ![Workflow canvas](evidence/01_workflow_canvas.png)
 ![Ledger table](evidence/02_ledger_table.png)
+![Ledger status columns](evidence/02b_ledger_status_columns.png)
 ![Route-log table](evidence/03_route_log_table.png)
 ![Executions](evidence/04_executions.png)
 ![Failed route-log test](evidence/05_failed_row.png)
