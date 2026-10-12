@@ -80,3 +80,23 @@ Known limit found during testing: GitHub's **Redeliver** button returns 401 when
 - `own_vs_rent.md`: comparison with Zapier
 - `journals/week-06.md`: Week 6 build journal with the extensibility observation
 - `sprint2_github_issue_triage.json`: submission-safe export of the workflow
+
+## Evidence screenshots
+
+Screenshots are in the `evidence/` folder. None of them show a token, secret, or the forwarding URL. Execution IDs and table contents are also written out in `test_evidence.md`.
+
+| What it shows | File |
+|---|---|
+| Workflow canvas (17 nodes) | `evidence/01_workflow_canvas.png` |
+| Ledger table after all tests (5 rows) | `evidence/02_ledger_table.png` |
+| Route-log table after all tests (4 rows, none for the failed issue) | `evidence/03_route_log_table.png` |
+| Executions list (IDs 19 to 26) | `evidence/04_executions.png` |
+| Failed route-log test, ledger row with the safe error note | `evidence/05_failed_row.png` |
+| Redelivery, ledger row with updated `last_seen_at` and a single route-log row | `evidence/06_redelivery.png` |
+
+![Workflow canvas](evidence/01_workflow_canvas.png)
+![Ledger table](evidence/02_ledger_table.png)
+![Route-log table](evidence/03_route_log_table.png)
+![Executions](evidence/04_executions.png)
+![Failed route-log test](evidence/05_failed_row.png)
+![Redelivery](evidence/06_redelivery.png)

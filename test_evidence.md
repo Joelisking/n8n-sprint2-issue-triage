@@ -70,4 +70,4 @@ Issue #5 `Documentation: intentional route-log failure test` produced execution 
 
 ## Not shown
 
-I did not save screenshots into this repository. The execution IDs above can be opened in the local n8n instance, and the `issues` deliveries are listed under Settings > Webhooks while the forward is running.
+Screenshots are in the `evidence/` folder and linked from `README.md`. The execution IDs above can be opened in the local n8n instance, and the `issues` deliveries are listed under Settings > Webhooks while the forward is running.
