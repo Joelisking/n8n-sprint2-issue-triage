@@ -53,3 +53,12 @@ Evidence: `test_evidence.md`, test 7 (execution 26).
 - Non-text issue content, very long titles, issues in other repositories, or high volume.
 - Backup and restore of the Data Tables.
 - Authentication on the webhook endpoint: the production path accepts any POST, so it must stay on localhost.
+
+## Shutdown record
+
+On 11 Oct 2026 at about 21:35 (America/Indianapolis) the shutdown was carried out in this order:
+1. `gh webhook forward` was stopped with Ctrl+C.
+2. The workflow was unpublished in n8n (the button changed from "Published" to "Publish").
+3. GitHub repository Settings > Webhooks was checked and listed no webhooks, so the temporary forwarding hook was gone.
+
+The Data Tables and the saved workflow were kept, so the evidence can still be inspected locally.

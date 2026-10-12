@@ -71,3 +71,7 @@ Issue #5 `Documentation: intentional route-log failure test` produced execution 
 ## Not shown
 
 Screenshots are in the `evidence/` folder and linked from `README.md`. The execution IDs above can be opened in the local n8n instance, and the `issues` deliveries are listed under Settings > Webhooks while the forward is running.
+
+## Shutdown
+
+The forward was stopped, the workflow was unpublished, and the repository's Webhooks page showed no hooks afterwards. See the Shutdown record in `runbook.md`.
